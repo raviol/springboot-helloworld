@@ -28,7 +28,7 @@ public class HomeControllerTest {
     public void helloWorld() {
         getRequest("/")
             .assertStatusCode(OK)
-            .assertResponseBody("Hello from GazGeek!");
+            .assertResponseBody("Hello from GazGeek!111");
     }
 
     private HelloWorldResponse getRequest(String uri) {
